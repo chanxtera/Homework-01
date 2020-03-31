@@ -1,0 +1,12 @@
+base
+methods
+datasets
+utils
+grDevices
+graphics
+stats
+gapminder
+ggplot2
+readr
+gganimate
+gifski

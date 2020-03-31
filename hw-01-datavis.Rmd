@@ -119,9 +119,16 @@ read_rds('solutions/04_solution.rds')
 
 *Note:* You can find a great `gganimate` tutorial [here](https://github.com/thomasp85/gganimate)
 
-```{r}
+```{r, cache = TRUE}
 
-read_rds('solutions/05_solution.rds')
+soln <- read_rds('solutions/05_solution.rds')
+
+animate(soln,
+  nframes = 250,
+  fps = 50,
+  width = 96 * 8,
+  height = 96 * 6
+)
 
 ```
 
