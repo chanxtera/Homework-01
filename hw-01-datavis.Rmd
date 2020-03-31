@@ -117,7 +117,11 @@ read_rds('solutions/04_solution.rds')
 
 - Use the `gganimate` package to make a smooth animation that has frames based on the `year` column. 
 
-*Note:* You can find a great `gganimate` tutorial [here](https://github.com/thomasp85/gganimate)
+*Notes:* 
+
+- You can find a great `gganimate` tutorial [here](https://github.com/thomasp85/gganimate)
+
+- For your own exploration and fun, you can install the `ggrepel` package and try to attach labels to individual countries. 
 
 ```{r, cache = TRUE}
 

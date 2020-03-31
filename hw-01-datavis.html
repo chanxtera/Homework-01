@@ -2943,7 +2943,11 @@ gapminder_2007</code></pre>
 <li><p>Re-create the figure from problem 4 using the entire <code>gapminder</code> dataset instead of the <code>gapminder_2007</code> data.</p></li>
 <li><p>Use the <code>gganimate</code> package to make a smooth animation that has frames based on the <code>year</code> column.</p></li>
 </ul>
-<p><em>Note:</em> You can find a great <code>gganimate</code> tutorial <a href="https://github.com/thomasp85/gganimate">here</a></p>
+<p><em>Notes:</em></p>
+<ul>
+<li><p>You can find a great <code>gganimate</code> tutorial <a href="https://github.com/thomasp85/gganimate">here</a></p></li>
+<li><p>For your own exploration and fun, you can install the <code>ggrepel</code> package and try to attach labels to individual countries.</p></li>
+</ul>
 <pre class="r"><code>soln &lt;- read_rds(&#39;solutions/05_solution.rds&#39;)
 
 animate(soln,
